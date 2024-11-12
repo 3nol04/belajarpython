@@ -1,0 +1,9 @@
+{%extends "main.html"%}
+{%block title %}Fakultas {%endblock%}
+{%block content %}
+<h1>Fakultas</h1> 
+<p>ini halaman fakultas</p>
+{% for fakultas in fakultas %}
+<p>{{fakultas}}</p>
+{% endfor %}
+{%endblock%}
